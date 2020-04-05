@@ -1,11 +1,11 @@
 from eaterwa import *
 
-myId = '6287859909669@c.us'
+myId = '6285711780858@c.us'
 
 auth = {
-    'apikey': 'your apikey',
-    'userid': 'your userid',
-    'username': 'your username'
+    'apikey': 'WApikey-mQEepYBfZloxY67OnoERmxkKF',
+    'userid': 'WAclient-BPKgDYqNVftyMCw',
+    'username': 'dekarol'
 }
 
 settings = {
@@ -20,7 +20,7 @@ def process_message(cmd, text, txt, to, sender, message, msg_id):
       if sender == myId:
         wa.mentionAll(message)
     elif txt == 'status':
-        wa.sendReply(msg_id, 'Alive Gan')
+        wa.sendReply(msg_id, 'hello')
     elif txt == 'battery':
         battery = wa.getBatteryLevel()
         wa.sendMessage(to, battery['result'])
