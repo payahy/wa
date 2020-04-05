@@ -3,9 +3,9 @@ from eaterwa import *
 myId = '6285711780858@c.us'
 
 auth = {
-    'apikey': 'WApikey-mQEepYBfZloxY67OnoERmxkKF',
-    'userid': 'WAclient-BPKgDYqNVftyMCw',
-    'username': 'dekarol'
+    'apikey': 'isikeyy',
+    'userid': 'isi',
+    'username': 'isi'
 }
 
 settings = {
